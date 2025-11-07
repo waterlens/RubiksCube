@@ -22,6 +22,7 @@
     [T], image("OLL-T.png"), `r (U R' U') r' (F R F')`, [],
     [U], image("OLL-U.png"), `(R U2 R') (U' R U' R')`, [],
     [L], image("OLL-L.png"), `(F R') (F' r) (U R) (U' r')`, [],
+    [L], image("OLL-Pi.png"), `(R U2 R2) U' R2 U' (R2 U2 R)`, [],
   ),
   caption: [2-Look OLL]
 )
@@ -33,8 +34,8 @@
     [*NAME*], [*CASE*], [*ALGORITHM*], [*COMMENT*],
     [Ua], image("PLL-Ua.png"), `(R U') (R U R U) (R U') (R U R2)`, [],
     [Ub], image("PLL-Ub.png"), `(R2 U R) (U R') (U' R' U' R') (U R')`, [],
-    [Z], image("PLL-Z.png"), `M' U' (M2 U') (M2 U') M' U2 M2`, [],
-    [H], image("PLL-H.png"), `M2 U' (M2 U2 M2) U' M2`, [],
+    [Z], image("PLL-Z.png"), `M' U (M2 U) (M2 U) M' U2 M2`, [],
+    [H], image("PLL-H.png"), `M2 U (M2 U2 M2) U M2`, [],
     [T], image("PLL-T.png"), `(R U R' U') (R' F R F') F (R U' R' U' R U R') F'`, [],
     [Y], image("PLL-Y.png"), `F (R U' R' U' R U R') F' (R U R' U') (R' F R F')`, []
   ),
