@@ -19,7 +19,7 @@
     [Anti-Sune], image("OLL-Antisune.png"), `(R U2 R') (U' R U' R')`, [],
     
     [H], image("OLL-H.png"), `(R U R' U) (R U' R' U) (R U2 R')`, [],
-    [T], image("OLL-T.png"), `(r U R' U') (r' F R F')`, [],
+    [T], image("OLL-T.png"), `r (U R' U') r' (F R F')`, [],
     [U], image("OLL-U.png"), `(R U2 R') (U' R U' R')`, [],
     [L], image("OLL-L.png"), `(F R') (F' r) (U R) (U' r')`, [],
   ),
