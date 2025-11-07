@@ -3,9 +3,9 @@
 #set text(font: "Noto Sans")
 #set image(width: 80pt)
 
-#show raw: set text(font: "Cascadia Code NF", 1.2em)
+#show raw: set text(font: "Cascadia Code NF", 1.6em)
 
-#let cs = (1fr, 1.8fr, 4fr, 1fr)
+#let cs = (1.2fr, 1.6fr, 5fr, 1fr)
 
 #figure(
   table(
@@ -32,7 +32,7 @@
     columns: cs,
     align: center + horizon,
     [*NAME*], [*CASE*], [*ALGORITHM*], [*COMMENT*],
-    [Ua], image("PLL-Ua.png"), `(R U') (R U R U) (R U') (R U R2)`, [],
+    [Ua], image("PLL-Ua.png"), `(R U') (R U R U) (R U') (R' U' R2)`, [],
     [Ub], image("PLL-Ub.png"), `(R2 U R) (U R') (U' R' U' R') (U R')`, [],
     [Z], image("PLL-Z.png"), `M' U (M2 U) (M2 U) M' U2 M2`, [],
     [H], image("PLL-H.png"), `M2 U (M2 U2 M2) U M2`, [],
