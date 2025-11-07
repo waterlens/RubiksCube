@@ -1,6 +1,6 @@
 #set page(width: 219mm, height: auto)
 #set align(center)
-#set text(font: "Helvetica")
+#set text(font: "Noto Sans")
 #set image(width: 80pt)
 
 #show raw: set text(font: "Cascadia Code NF", 1.2em)
