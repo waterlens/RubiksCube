@@ -1,11 +1,11 @@
-#set page(width: 219mm, height: auto)
+#set page(width: 350mm, height: auto)
 #set align(center)
 #set text(font: "Noto Sans")
 #set image(width: 80pt)
 
 #show raw: set text(font: "Cascadia Code NF", 1.6em)
 
-#let cs = (1.2fr, 1.6fr, 5fr, 1fr)
+#let cs = (1fr, 1.6fr, 5fr, 1fr)
 
 #figure(
   table(
