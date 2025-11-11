@@ -21,7 +21,7 @@
     [H], image("OLL-H.png"), `(R U R' U) (R U' R' U) (R U2 R')`, [],
     [T], image("OLL-T.png"), `r (U R' U') r' (F R F')`, [],
     [U], image("OLL-U.png"), `R2 (D R' U2 R D') (R' U2 R')`, [],
-    [L], image("OLL-L.png"), `(F R') (F' r) (U R) (U' r')`, [],
+    [L], image("OLL-L.png"), `(F R' F') r (U R U') r'`, [],
     [L], image("OLL-Pi.png"), `(R U2 R2) U' R2 U' (R2 U2 R)`, [],
   ),
   caption: [2-Look OLL]
